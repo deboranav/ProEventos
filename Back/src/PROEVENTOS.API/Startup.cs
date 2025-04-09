@@ -11,7 +11,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
-using namespace PROEVENTOS.API.Data;
+using Microsoft.EntityFrameworkCore;
+using PROEVENTOS.API.Data;
 
 namespace PROEVENTOS.API
 {
